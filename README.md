@@ -4,14 +4,14 @@
 
 The MongoDB Time Series Manager is a Python script that provides a simple interface to manage time series data stored in MongoDB.
 
-##Features
+## Features
 - Create a new time series collection in MongoDB 
 - Insert new documents into a time series collection 
 - Retrieve documents by timestamp range or tag value 
 - Delete documents by timestamp or tag value 
 - Remove duplicate documents based on a specified field
 
-##Requirements
+## Requirements
 - Python 3.x 
 - pymongo module 
 - MongoDB server

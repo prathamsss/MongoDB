@@ -133,6 +133,9 @@ class MongoDB:
             print(f"Deleted {result.deleted_count} documents with value {value}")
 
 
+
+# Example about how you can access the above utility:
+
 mongo = MongoDB("Warehouse_1")
 collection = mongo.create_timeseries_collection('myt3', 'timestamp', 'tags')
 

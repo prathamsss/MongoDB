@@ -19,6 +19,16 @@ class MongoDB:
 
         :param db_name: the name of the database to connect with.
         """
+        # To connect to your mongoDB cloud account comment out below, follow below steps.
+        # replace <username>, <password>, <cluster_name>, and <dbname> with your values
+        # username = '<username>'
+        # password = '<password>'
+        # cluster_name = '<cluster_name>'
+        # dbname = '<dbname>'
+        #
+        # # replace the connection string with your MongoDB cloud server's connection string
+        # connection_string = f'mongodb+srv://{username}:{password}@{cluster_name}.mongodb.net/{dbname}?retryWrites=true&w=majority'
+        # client = MongoClient(connection_string)
         self.client = MongoClient()
         self.db = self.client[db_name]
 
